@@ -31,3 +31,13 @@ class CustomerSpec(unittest.TestCase):
         self.customer.drink_drink(self.drink)
         self.customer.eat_food(self.food)
         self.assertEqual(self.customer.drunkenness_level(), 2)
+
+    def test_customer_can_buy_drink(self):
+        self.customer.buy_item(self.drink)
+        self.assertEqual(self.customer.drunkenness_level(), 5)
+        self.assertEqual(self.customer.check_wallet(), 49)
+
+    def test_customer_can_buy_food(self):
+        self.customer.buy_item(self.food)
+        self.assertEqual(self.customer.drunkenness_level(), 0)
+        self.assertEqual(self.customer.check_wallet(), 52)

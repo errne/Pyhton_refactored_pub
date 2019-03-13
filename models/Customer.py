@@ -20,8 +20,18 @@ class Customer:
 
     def eat_food(self, food):
         self.drunkenness -= food.rejuvenation_level
+        if self.drunkenness < 0:
+            self.drunkenness = 0
 
     def drunkenness_level(self):
         return self.drunkenness
+
+    def buy_item(self, item):
+        self.wallet -= item.price
+        if type(item).__name__ == "Drink":
+            self.drink_drink(item)
+        if type(item).__name__ == "Food":
+            self.eat_food(item)
+        return item.price
 
 
