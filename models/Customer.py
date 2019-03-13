@@ -6,11 +6,14 @@ class Customer:
         self.wallet = wallet
         self.drunkenness = 0
 
+    def name(self):
+        return self._name
+
     def show_id(self):
         return self.age
 
     def check_wallet(self):
-        return  self.wallet
+        return self.wallet
 
     # def drink_drink(self):
     #     self.drunkenness += drink.alcohol_level
