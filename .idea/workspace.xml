@@ -10,16 +10,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/Customer.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Food.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Customer_spec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state relative-caret-position="480">
+              <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -30,8 +34,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/Drink.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/Customer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -54,8 +67,9 @@
         <option value="$PROJECT_DIR$/Customer.py" />
         <option value="$PROJECT_DIR$/specs/Customer_spec.py" />
         <option value="$PROJECT_DIR$/models/Drink.py" />
-        <option value="$PROJECT_DIR$/models/Customer.py" />
+        <option value="$PROJECT_DIR$/models/Food.py" />
         <option value="$PROJECT_DIR$/tests/Customer_spec.py" />
+        <option value="$PROJECT_DIR$/models/Customer.py" />
       </list>
     </option>
   </component>
@@ -115,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for Customer_spec.CustomerSpec.test_drunkenness_level__after_drink">
+  <component name="RunManager" selected="Python tests.Unittests for Customer_spec.CustomerSpec">
     <configuration name="Unittests for Customer_spec.CustomerSpec" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyhton_refactored_pub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,8 +202,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for Customer_spec.CustomerSpec.test_drunkenness_level__after_drink" />
         <item itemvalue="Python tests.Unittests for Customer_spec.CustomerSpec" />
+        <item itemvalue="Python tests.Unittests for Customer_spec.CustomerSpec.test_drunkenness_level__after_drink" />
         <item itemvalue="Python tests.Unittests for Customer_spec.CustomerSpec.test_name" />
         <item itemvalue="Python tests.Unittests for Customer_spec.CustomerSpec.test_drunkenness_level" />
         <item itemvalue="Python tests.Unittests for tests.Customer_spec.CustomerSpec.test_name" />
@@ -210,12 +224,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_Customer_spec_CustomerSpec - 2019.03.13 at 17h 23m 38s.xml">
-      <configuration name="Unittests for Customer_spec.CustomerSpec" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Customer_spec_CustomerSpec - 2019.03.13 at 17h 24m 46s.xml">
-      <configuration name="Unittests for Customer_spec.CustomerSpec" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_Customer_spec_CustomerSpec - 2019.03.13 at 17h 31m 49s.xml">
       <configuration name="Unittests for Customer_spec.CustomerSpec" configurationId="tests" />
     </history-entry>
@@ -239,6 +247,12 @@
     </history-entry>
     <history-entry file="Unittests_for_Customer_spec_CustomerSpec_test_drunkenness_level__after_drink - 2019.03.13 at 17h 56m 46s.xml">
       <configuration name="Unittests for Customer_spec.CustomerSpec.test_drunkenness_level__after_drink" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Customer_spec_CustomerSpec - 2019.03.13 at 18h 14m 45s.xml">
+      <configuration name="Unittests for Customer_spec.CustomerSpec" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Customer_spec_CustomerSpec - 2019.03.13 at 18h 15m 02s.xml">
+      <configuration name="Unittests for Customer_spec.CustomerSpec" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -270,15 +284,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Drink.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Food.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Customer_spec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="480">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -286,7 +307,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Customer.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
