@@ -12,21 +12,26 @@
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/Customer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Customer_spec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="391">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Drink.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -48,8 +53,9 @@
       <list>
         <option value="$PROJECT_DIR$/Customer.py" />
         <option value="$PROJECT_DIR$/specs/Customer_spec.py" />
-        <option value="$PROJECT_DIR$/tests/Customer_spec.py" />
+        <option value="$PROJECT_DIR$/models/Drink.py" />
         <option value="$PROJECT_DIR$/models/Customer.py" />
+        <option value="$PROJECT_DIR$/tests/Customer_spec.py" />
       </list>
     </option>
   </component>
@@ -109,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for Customer_spec.CustomerSpec">
+  <component name="RunManager" selected="Python tests.Unittests for Customer_spec.CustomerSpec.test_drunkenness_level__after_drink">
     <configuration name="Unittests for Customer_spec.CustomerSpec" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyhton_refactored_pub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,6 +130,34 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for Customer_spec.CustomerSpec.test_drunkenness_level" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="pyhton_refactored_pub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Customer_spec.CustomerSpec.test_drunkenness_level&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for Customer_spec.CustomerSpec.test_drunkenness_level__after_drink" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="pyhton_refactored_pub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Customer_spec.CustomerSpec.test_drunkenness_level__after_drink&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for Customer_spec.CustomerSpec.test_name" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyhton_refactored_pub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,20 +169,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;Customer_spec.CustomerSpec.test_name&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for tests.Customer_spec.CustomerSpec" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="pyhton_refactored_pub" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.Customer_spec.CustomerSpec&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -168,10 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for Customer_spec.CustomerSpec.test_drunkenness_level__after_drink" />
         <item itemvalue="Python tests.Unittests for Customer_spec.CustomerSpec" />
         <item itemvalue="Python tests.Unittests for Customer_spec.CustomerSpec.test_name" />
+        <item itemvalue="Python tests.Unittests for Customer_spec.CustomerSpec.test_drunkenness_level" />
         <item itemvalue="Python tests.Unittests for tests.Customer_spec.CustomerSpec.test_name" />
-        <item itemvalue="Python tests.Unittests for tests.Customer_spec.CustomerSpec" />
       </list>
     </recent_temporary>
   </component>
@@ -189,29 +210,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_tests_Customer_spec_CustomerSpec_test_name - 2019.03.13 at 14h 54m 31s.xml">
-      <configuration name="Unittests for tests.Customer_spec.CustomerSpec.test_name" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_tests_Customer_spec_CustomerSpec_test_name - 2019.03.13 at 14h 55m 35s.xml">
-      <configuration name="Unittests for tests.Customer_spec.CustomerSpec.test_name" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_tests_Customer_spec_CustomerSpec - 2019.03.13 at 14h 55m 38s.xml">
-      <configuration name="Unittests for tests.Customer_spec.CustomerSpec" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_tests_Customer_spec_CustomerSpec_test_name - 2019.03.13 at 15h 16m 08s.xml">
-      <configuration name="Unittests for tests.Customer_spec.CustomerSpec.test_name" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Customer_spec_CustomerSpec_test_name - 2019.03.13 at 15h 16m 33s.xml">
-      <configuration name="Unittests for Customer_spec.CustomerSpec.test_name" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Customer_spec_CustomerSpec_test_name - 2019.03.13 at 17h 20m 47s.xml">
-      <configuration name="Unittests for Customer_spec.CustomerSpec.test_name" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_Customer_spec_CustomerSpec - 2019.03.13 at 17h 23m 38s.xml">
       <configuration name="Unittests for Customer_spec.CustomerSpec" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_Customer_spec_CustomerSpec - 2019.03.13 at 17h 24m 46s.xml">
       <configuration name="Unittests for Customer_spec.CustomerSpec" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Customer_spec_CustomerSpec - 2019.03.13 at 17h 31m 49s.xml">
+      <configuration name="Unittests for Customer_spec.CustomerSpec" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Customer_spec_CustomerSpec - 2019.03.13 at 17h 32m 23s.xml">
+      <configuration name="Unittests for Customer_spec.CustomerSpec" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Customer_spec_CustomerSpec_test_drunkenness_level__after_drink - 2019.03.13 at 17h 52m 18s.xml">
+      <configuration name="Unittests for Customer_spec.CustomerSpec.test_drunkenness_level__after_drink" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Customer_spec_CustomerSpec_test_drunkenness_level - 2019.03.13 at 17h 55m 15s.xml">
+      <configuration name="Unittests for Customer_spec.CustomerSpec.test_drunkenness_level" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Customer_spec_CustomerSpec_test_name - 2019.03.13 at 17h 55m 42s.xml">
+      <configuration name="Unittests for Customer_spec.CustomerSpec.test_name" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Customer_spec_CustomerSpec - 2019.03.13 at 17h 56m 25s.xml">
+      <configuration name="Unittests for Customer_spec.CustomerSpec" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Customer_spec_CustomerSpec_test_drunkenness_level__after_drink - 2019.03.13 at 17h 56m 34s.xml">
+      <configuration name="Unittests for Customer_spec.CustomerSpec.test_drunkenness_level__after_drink" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Customer_spec_CustomerSpec_test_drunkenness_level__after_drink - 2019.03.13 at 17h 56m 46s.xml">
+      <configuration name="Unittests for Customer_spec.CustomerSpec.test_drunkenness_level__after_drink" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -241,10 +268,17 @@
     <entry file="file://$PROJECT_DIR$/tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/Drink.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Customer_spec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="391">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -252,11 +286,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Customer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

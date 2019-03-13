@@ -1,11 +1,13 @@
 import unittest
 from models.Customer import *
+from models.Drink import *
 
 
 class CustomerSpec(unittest.TestCase):
 
     def setUp(self):
         self.customer = Customer("Jim", 33, 55)
+        self.drink = Drink("Helles", 6, 5)
 
     def test_name(self):
         self.assertEqual(self.customer.name, "Jim")
@@ -18,3 +20,7 @@ class CustomerSpec(unittest.TestCase):
 
     def test_drunkenness_level(self):
         self.assertEqual(self.customer.drunkenness_level(), 0)
+
+    def test_drunkenness_level__after_drink(self):
+        self.customer.drink_drink(self.drink)
+        self.assertEqual(self.customer.drunkenness_level(), 5)

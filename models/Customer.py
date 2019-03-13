@@ -15,8 +15,8 @@ class Customer:
     def check_wallet(self):
         return self.wallet
 
-    # def drink_drink(self):
-    #     self.drunkenness += drink.alcohol_level
+    def drink_drink(self, beverage):
+        self.drunkenness += beverage.alcohol_level
 
     def drunkenness_level(self):
         return self.drunkenness
