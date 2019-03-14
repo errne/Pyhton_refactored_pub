@@ -61,5 +61,46 @@ class PubSpec(unittest.TestCase):
         self.assertEqual(49, self.customer.check_wallet())
         self.assertEqual(4, self.pub.check_stock(self.drink1))
 
+    def test_pub_can_sell_item__food(self):
+        self.pub.sell_item(self.customer, self.food)
+        self.assertEqual(13, self.pub.check_till())
+        self.assertEqual(52, self.customer.check_wallet())
+
+    def test_pub_can_sell_item__not_too_drunk(self):
+        self.pub.sell_item(self.customer, self.drink3)
+        self.pub.sell_item(self.customer, self.drink3)
+        self.pub.sell_item(self.customer, self.drink2)
+        self.pub.sell_item(self.customer, self.drink2)
+        self.assertEqual(32, self.pub.check_till())
+        self.assertEqual(33, self.customer.check_wallet())
+        self.assertEqual(1, self.pub.check_stock(self.drink2))
+
+    def test_pub_can_sell_item__too_drunk_buys_pizza(self):
+        self.pub.sell_item(self.customer, self.drink3)
+        self.pub.sell_item(self.customer, self.drink3)
+        self.pub.sell_item(self.customer, self.drink3)
+        self.pub.sell_item(self.customer, self.food)
+        self.assertEqual(31, self.pub.check_till())
+        self.assertEqual(34, self.customer.check_wallet())
+
+    def test_pub_cannot_sell_item__underage(self):
+        self.pub.sell_item(self.underage, self.drink2)
+        self.assertEqual(10, self.pub.check_till())
+        self.assertEqual(10, self.underage.check_wallet())
+        self.assertEqual("You are too young!", self.pub.sell_item(self.underage, self.drink3))
+
+    def test_pub_cannot_sell_item__when_not_in_stock(self):
+        self.pub.sell_item(self.customer, self.drink2)
+        self.pub.sell_item(self.customer, self.drink2)
+        self.pub.sell_item(self.customer, self.drink2)
+        self.pub.sell_item(self.customer, self.drink2)
+        self.assertEqual(25, self.pub.check_till())
+        self.assertEqual(40, self.customer.check_wallet())
+        self.assertEqual(0, self.pub.check_stock(self.drink2))
+
+    def test_pub_stock_value(self):
+        self.assertEqual(81, self.pub.evaluate_stock())
+
+
 
 

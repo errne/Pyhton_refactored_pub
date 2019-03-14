@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d1326c-e2b1-4fd7-9a49-e2f8456f3442" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Pub.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/Pub.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Pub_spec.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Pub_spec.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Pub_spec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+            <state relative-caret-position="429">
+              <caret line="101" column="55" lean-forward="true" selection-start-line="101" selection-start-column="55" selection-end-line="101" selection-end-column="55" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/Pub.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+            <state relative-caret-position="463">
+              <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -154,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for Pub_spec.PubSpec.test_pub_can_sell_item">
+  <component name="RunManager" selected="Python tests.Unittests for Pub_spec.PubSpec.test_pub_stock_value">
     <configuration name="Unittests for Pub_spec.PubSpec" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyhton_refactored_pub" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,7 +170,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_check_drunkeness_level" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_sell_item__not_too_drunk" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyhton_refactored_pub" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,11 +180,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Pub_spec.PubSpec.test_pub_can_check_drunkeness_level&quot;" />
+      <option name="_new_target" value="&quot;Pub_spec.PubSpec.test_pub_can_sell_item__not_too_drunk&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_check_drunkenness_level__too_drunk" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_sell_item__too_drunk_buys_pizza" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyhton_refactored_pub" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,11 +194,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Pub_spec.PubSpec.test_pub_can_check_drunkenness_level__too_drunk&quot;" />
+      <option name="_new_target" value="&quot;Pub_spec.PubSpec.test_pub_can_sell_item__too_drunk_buys_pizza&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_sell_item" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Pub_spec.PubSpec.test_pub_stock_value" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyhton_refactored_pub" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,11 +208,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Pub_spec.PubSpec.test_pub_can_sell_item&quot;" />
+      <option name="_new_target" value="&quot;Pub_spec.PubSpec.test_pub_stock_value&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Pub_spec.PubSpec.test_reduce_item_stock_level" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Pub_spec.PubSpec.test_sell_item__when_not_in_stock" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyhton_refactored_pub" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,17 +222,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Pub_spec.PubSpec.test_reduce_item_stock_level&quot;" />
+      <option name="_new_target" value="&quot;Pub_spec.PubSpec.test_sell_item__when_not_in_stock&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for Pub_spec.PubSpec.test_pub_can_sell_item" />
-        <item itemvalue="Python tests.Unittests for Pub_spec.PubSpec.test_reduce_item_stock_level" />
-        <item itemvalue="Python tests.Unittests for Pub_spec.PubSpec.test_pub_can_check_drunkenness_level__too_drunk" />
-        <item itemvalue="Python tests.Unittests for Pub_spec.PubSpec.test_pub_can_check_drunkeness_level" />
+        <item itemvalue="Python tests.Unittests for Pub_spec.PubSpec.test_pub_stock_value" />
+        <item itemvalue="Python tests.Unittests for Pub_spec.PubSpec.test_pub_can_sell_item__too_drunk_buys_pizza" />
         <item itemvalue="Python tests.Unittests for Pub_spec.PubSpec" />
+        <item itemvalue="Python tests.Unittests for Pub_spec.PubSpec.test_pub_can_sell_item__not_too_drunk" />
+        <item itemvalue="Python tests.Unittests for Pub_spec.PubSpec.test_sell_item__when_not_in_stock" />
       </list>
     </recent_temporary>
   </component>
@@ -249,35 +250,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_can_check_drunkenness_level__too_drunk - 2019.03.14 at 17h 14m 18s.xml">
-      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_check_drunkenness_level__too_drunk" configurationId="tests" />
+    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_can_sell_item__not_too_drunk - 2019.03.14 at 17h 37m 19s.xml">
+      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_sell_item__not_too_drunk" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_can_check_drunkenness_level__too_drunk - 2019.03.14 at 17h 15m 20s.xml">
-      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_check_drunkenness_level__too_drunk" configurationId="tests" />
+    <history-entry file="Unittests_for_Pub_spec_PubSpec - 2019.03.14 at 17h 37m 23s.xml">
+      <configuration name="Unittests for Pub_spec.PubSpec" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_can_check_drunkenness_level__too_drunk - 2019.03.14 at 17h 16m 06s.xml">
-      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_check_drunkenness_level__too_drunk" configurationId="tests" />
+    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_can_sell_item__too_drunk_buys_pizza - 2019.03.14 at 17h 39m 47s.xml">
+      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_sell_item__too_drunk_buys_pizza" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_can_sell_item - 2019.03.14 at 17h 16m 47s.xml">
-      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_sell_item" configurationId="tests" />
+    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_stock_value - 2019.03.14 at 17h 41m 29s.xml">
+      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_stock_value" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_can_sell_item - 2019.03.14 at 17h 16m 57s.xml">
-      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_sell_item" configurationId="tests" />
+    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_stock_value - 2019.03.14 at 17h 48m 59s.xml">
+      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_stock_value" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_can_sell_item - 2019.03.14 at 17h 17m 16s.xml">
-      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_sell_item" configurationId="tests" />
+    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_stock_value - 2019.03.14 at 17h 49m 41s.xml">
+      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_stock_value" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_can_sell_item - 2019.03.14 at 17h 19m 08s.xml">
-      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_sell_item" configurationId="tests" />
+    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_stock_value - 2019.03.14 at 17h 49m 54s.xml">
+      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_stock_value" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_can_sell_item - 2019.03.14 at 17h 19m 25s.xml">
-      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_sell_item" configurationId="tests" />
+    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_stock_value - 2019.03.14 at 17h 50m 25s.xml">
+      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_stock_value" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_can_sell_item - 2019.03.14 at 17h 20m 23s.xml">
-      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_can_sell_item" configurationId="tests" />
+    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_stock_value - 2019.03.14 at 17h 51m 39s.xml">
+      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_stock_value" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_reduce_item_stock_level - 2019.03.14 at 17h 22m 31s.xml">
-      <configuration name="Unittests for Pub_spec.PubSpec.test_reduce_item_stock_level" configurationId="tests" />
+    <history-entry file="Unittests_for_Pub_spec_PubSpec_test_pub_stock_value - 2019.03.14 at 17h 51m 53s.xml">
+      <configuration name="Unittests for Pub_spec.PubSpec.test_pub_stock_value" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -340,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Pub_spec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        <state relative-caret-position="429">
+          <caret line="101" column="55" lean-forward="true" selection-start-line="101" selection-start-column="55" selection-end-line="101" selection-end-column="55" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -350,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Pub.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        <state relative-caret-position="463">
+          <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
         </state>
       </provider>
     </entry>

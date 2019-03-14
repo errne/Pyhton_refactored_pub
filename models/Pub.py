@@ -24,7 +24,6 @@ class Pub:
         self.drinks[item] -= 1
 
     def sell_item(self, customer, item):
-
         if type(item).__name__ == "Drink":
             if not self.check_age(customer):
                 return "You are too young!"
@@ -35,3 +34,9 @@ class Pub:
             self.reduce_stock(item)
         cash = customer.buy_item(item)
         self.add_money_to_till(cash)
+
+    def evaluate_stock(self):
+        total_value = 0
+        for key, value in self.drinks.items():
+            total_value += key.price*value
+        return total_value
